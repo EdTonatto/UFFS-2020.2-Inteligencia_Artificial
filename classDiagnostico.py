@@ -1,11 +1,11 @@
 class Diagnostico():
 	# metodo construtor
 	def __init__(self):
-		self.resultado = ['cansado', 'estressado', 'deprimido', 'faminto','saudavel']
+		#self.resultado = ['cansado', 'estressado', 'deprimido', 'faminto','saudavel']
+		self.resultado = ['Gripe', 'Saudavel']
 		self.pessoa = []
 		self.db = []
-		# abre o arquivo db.txt em modo leitura e passa os dados para
-		# uma lista de listas de str
+
 		arquivo = open('db.txt','r')
 		for linha in arquivo:
 			if linha[len(linha) - 1] == '\n':
@@ -19,7 +19,11 @@ class Diagnostico():
 
 	# imprime a probabilidade do diagnótico
 	def probabilidade(self):
-		return (int((1/int(len(self.resultado)))*100))
+		try:
+			return (int((1/int(len(self.resultado)))*100))
+		except ZeroDivisionError:
+			print('Erro: Divisao por zero no calculo de probabilidade')
+			return 0
 
 
 	# verifica se diagnóstico pensado tem a caracteristica passada por parametro

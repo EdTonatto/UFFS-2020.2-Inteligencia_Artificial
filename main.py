@@ -1,15 +1,15 @@
-from classDiagnostico import *
-from classPerguntas import *
+from Diagnostico import *
+from Perguntas import *
 
 #Inferência
-se = Diagnostico()
+diagnostico = Diagnostico()
 pergunta = Pergunta()
 
 
-while se.probabilidade() != 100:
+while diagnostico.probabilidade() != 100:
 	string = pergunta.texto()
-	se.pergunta(string[0],string[1])
-	print('probabilidade é %d' %(se.probabilidade()))
-	print(se.resultado)
-	if se.probabilidade() == 100:
-		print('O seu Pet está: ',se.resultado[0])
+	diagnostico.pergunta(string[0],string[1])
+	print('probabilidade é %d' %(diagnostico.probabilidade()))
+	print(diagnostico.resultado)
+	if diagnostico.probabilidade() == 100:
+		print('Voce esta: ',diagnostico.resultado[0])
