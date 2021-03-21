@@ -1,12 +1,10 @@
 class Diagnostico():
-	# metodo construtor
+	
 	def __init__(self):
-		#self.resultado = ['cansado', 'estressado', 'deprimido', 'faminto','saudavel']
 		self.resultado = ['Gripe', 'Saudavel']
 		self.pessoa = []
 		self.db = []
-		# abre o arquivo db.txt em modo leitura e passa os dados para
-		# uma lista de listas de str
+		
 		arquivo = open('db.txt','r')
 		for linha in arquivo:
 			if linha[len(linha) - 1] == '\n':
@@ -63,11 +61,3 @@ class Diagnostico():
 			self.excluiquemnaoe(caract)
 		elif resp == 'n' or resp == 'N':
 			self.excluiqueme(caract)
-
-"""
-O seu Pet está agitado?'			->		'agitado'
-O seu Pet está comendo bem?'		->		'alimentado'
-'O ambiente é adequado?'			->		'ambiente_adequado'
-'O seu Pet fez atividade física?' 	-> 		'se_movimenta',		
-
-"""
