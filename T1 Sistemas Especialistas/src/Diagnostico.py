@@ -1,7 +1,7 @@
 class Diagnostico():
 	
 	def __init__(self):
-		self.resultado = ['Gripe', 'Pneumonia', 'Sarampo', 'Febre Amarela', 'Saudavel']
+		self.resultado = ['Gripe Comum', 'Covid 19']
 		self.pessoa = []
 		self.db = []
 		
@@ -21,8 +21,8 @@ class Diagnostico():
 		try:
 			return (int((1/int(len(self.resultado)))*100))
 		except ZeroDivisionError:
-			print('Erro: Divisao por zero no calculo de probabilidade')
-			return 0
+			self.resultado = ['Saudavel']
+			return 100
 
 
 	# verifica se diagnóstico pensado tem a caracteristica passada por parametro

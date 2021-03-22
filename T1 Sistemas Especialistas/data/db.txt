@@ -1,28 +1,19 @@
-febre-Gripe
-calafrio-Gripe
-dorcabeca-Gripe
-dorgarganta-Gripe
-dormuscular-Gripe
-faltaapetite-Gripe
-febre-Pneumonia
-faltaar-Pneumonia
-dorpeito-Pneumonia
-tosseseca-Pneumonia
-tossesangue-Pneumonia
-suornoite-Pneumonia
-dormuscular-Pneumonia
-cansaco-Pneumonia
-febre-Sarampo
-dorgarganta-Sarampo
-tosseseca-Sarampo
-dormuscular-Sarampo
-cansaco-Sarampo
-manchasvermelhascorpo-Sarampo
-manchasbrancasboca-Sarampo
-conjuntivite-Sarampo
-febre-Febre Amarela
-dorcabeca-Febre Amarela
-dormuscular-Febre Amarela
-sensluz-Febre Amarela
-nausea-Febre Amarela
-palpitacoes-Febre Amarela
+febre-Gripe Comum
+dorgarganta-Gripe Comum
+tosseseca-Gripe Comum
+coriza-Gripe Comum
+dorcabeca-Gripe Comum
+dormuscular-Gripe Comum
+faltaapetite-Gripe Comum
+calafrio-Gripe Comum
+febre-Covid 19
+dorgarganta-Covid 19
+tosseseca-Covid 19
+coriza-Covid 19
+dorcabeca-Covid 19
+dormuscular-Covid 19
+faltaapetite-Covid 19
+difrespirar-Covid 19
+gastrintestinais-Covid 19
+altpaladar-Covid 19
+cansaco-Covid 19
