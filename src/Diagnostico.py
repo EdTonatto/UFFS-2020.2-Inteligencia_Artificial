@@ -5,7 +5,7 @@ class Diagnostico():
 		self.pessoa = []
 		self.db = []
 		
-		arquivo = open('db.txt','r')
+		arquivo = open('../data/db.txt','r')
 		for linha in arquivo:
 			if linha[len(linha) - 1] == '\n':
 				linha = linha.replace("\n", "")
