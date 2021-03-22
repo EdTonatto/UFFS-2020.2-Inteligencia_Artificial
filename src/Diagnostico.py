@@ -1,7 +1,7 @@
 class Diagnostico():
 	
 	def __init__(self):
-		self.resultado = ['Gripe', 'Saudavel']
+		self.resultado = ['Gripe', 'Pneumonia', 'Sarampo', 'Febre Amarela', 'Saudavel']
 		self.pessoa = []
 		self.db = []
 		

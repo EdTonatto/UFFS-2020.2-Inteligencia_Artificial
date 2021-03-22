@@ -1,7 +1,28 @@
 febre-Gripe
-febre-Saudavel
 calafrio-Gripe
 dorcabeca-Gripe
 dorgarganta-Gripe
 dormuscular-Gripe
 faltaapetite-Gripe
+febre-Pneumonia
+faltaar-Pneumonia
+dorpeito-Pneumonia
+tosseseca-Pneumonia
+tossesangue-Pneumonia
+suornoite-Pneumonia
+dormuscular-Pneumonia
+cansaco-Pneumonia
+febre-Sarampo
+dorgarganta-Sarampo
+tosseseca-Sarampo
+dormuscular-Sarampo
+cansaco-Sarampo
+manchasvermelhascorpo-Sarampo
+manchasbrancasboca-Sarampo
+conjuntivite-Sarampo
+febre-Febre Amarela
+dorcabeca-Febre Amarela
+dormuscular-Febre Amarela
+sensluz-Febre Amarela
+nausea-Febre Amarela
+palpitacoes-Febre Amarela
