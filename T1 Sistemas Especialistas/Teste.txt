@@ -1,0 +1,5 @@
+N = Saudavel
+S S S S S S S S S = Covid19
+S S S S N = Saudavel
+S S S S S S S S N = Gripe Comum
+S S S S S N = Saudavel
